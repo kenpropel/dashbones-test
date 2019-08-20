@@ -2,9 +2,9 @@
   "theme": {"red":10,"green":255,"blue":10},
   "boxes": [
     {
-      "zoomed": "true",
-      "type": "Image",
-      "url": "https://web-assets.propelfuels.com/it/p-logo.png",
+      "zoomed": true,
+      "type": "Simple",
+      "line1": "Simple",
       "row":0,
       "column":0
     }
