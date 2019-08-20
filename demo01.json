@@ -1,9 +1,8 @@
 {
-  "theme": {"red":10,"green":255,"blue":10,"alpha":1},
+  "theme": "light",
   "boxes": [
     {
       "zoomed": "true",
-      "zoooomed": "true",
       "type": "Image",
       "url": "https://web-assets.propelfuels.com/it/p-logo.png",
       "row":0,
@@ -84,7 +83,7 @@
       "column":3
     }, {
       "type": "Delta",
-      "line1": "REVENUE",
+      "line1": "Delta",
       "line2": "$12,345",
       "delta":"+5.5%",
       "deltaPositive":"true",
