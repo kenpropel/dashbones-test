@@ -1,51 +1,37 @@
 {
-  "theme": {"red":255,"green":0,"blue":0},
+  "theme": {"red":10,"green":255,"blue":10,"alpha":1},
   "boxes": [
     {
       "zoomed": "true",
-      "type": "Simple",
-      "line1": "🍔",
+      "zoooomed": "true",
+      "type": "Image",
+      "url": "https://web-assets.propelfuels.com/it/p-logo.png",
       "row":0,
-      "column":0,
-      "background": {"red":0,"green":0,"blue":0,"alpha":0.1}
+      "column":0
     }, {
       "type": "Stack",
-      "line1": "WEEK",
-      "line2": "34",
+      "line1": "Stack",
+      "line2": "Line2",
       "highlightLine2": "true",
       "row":0,
       "column":2,
       "background": {"red":0,"green":0,"blue":0,"alpha":0.05}
     }, {
-      "type": "Stack",
-      "line1": "WEEK №",
-      "line2": "444",
-      "highlightLine2": "true",
-      "row":2,
-      "column":2
-    }, {
-      "type": "Stack",
-      "line1": "MAILING LIST",
-      "line2": "",
-      "highlightLine2": "true",
-      "row":2,
-      "column":3,
-      "background": {"red":200,"green":200,"blue":200,"alpha":0.5}
-    }, {
-      "type": "Stack",
-      "line1": "🎄",
-      "line2": "127 DAYS",
-      "highlightLine2": "true",
-      "row":1,
+      "type": "Simple",
+      "line1": "R0C3Simple",
+      "row":0,
       "column":3
     }, {
-      "type": "Stack",
-      "line1": "⌚️DAYS OLD",
-      "line2": "1806",
-      "highlightLine2": "true",
+      "type": "Simple",
+      "line1": "R1C2",
       "row":1,
       "column":2,
       "background": {"red":255,"green":0,"blue":0,"alpha":0.15}
+    }, {
+      "type": "Simple",
+      "line1": "R1C3Simple",
+      "row":1,
+      "column":3
     }, {
       "type": "Simple",
       "zoomed": "true",
@@ -53,32 +39,30 @@
       "row":2,
       "column":0
     }, {
-      "type": "Stack",
-      "line1": "THEME",
-      "line2": "red",
-      "highlightLine2": "true",
-      "row":0,
-      "column":3
-    }, {
-      "type": "Stack",
-      "line1": "📞👨🏻🐳",
-      "line2": "1",
-      "highlightLine2": "true",
-      "row":5,
+      "type": "Simple",
+      "line1": "R2C2Simple",
+      "row":2,
       "column":2
     }, {
+      "type": "Simple",
+      "line1": "R2C3",
+      "row":2,
+      "column":3,
+      "background": {"red":200,"green":200,"blue":200,"alpha":0.5}
+    }, {
+      "type": "Stack",
+      "line1": "Stack",
+      "line2": "R3C2",
+      "row":3,
+      "column":2,
+      "background": {"red":255,"green":0,"blue":0,"alpha":0.15}
+    }, {
       "type": "Chart",
-      "data": [1,2,3,2,4,2,6,6,4,4,5,7,4,5],
-      "line1": "VISITS",
+      "data": [1,2,3,2,4,2,6,6,4,4,5],
+      "line1": "Chart",
       "row":4,
       "column":0,
       "background": {"red":0,"green":0,"blue":0,"alpha":0.05}
-    }, {
-      "type": "Simple",
-      "line1": "72°",
-      "row":4,
-      "column":2,
-      "background": {"red":0,"green":0,"blue":0,"alpha":0.3}
     }, {
       "type": "Stack",
       "line1": "LON",
@@ -88,45 +72,15 @@
       "column":1,
       "background": {"red":0,"green":0,"blue":0,"alpha":0.1}
     }, {
-      "type": "Stack",
-      "line1": "STL",
-      "line2": "00:09",
-      "highlightLine2": "true",
+      "type": "Simple",
+      "line1": "72°",
       "row":4,
-      "column":3
-    }, {
-      "type": "Stack",
-      "line1": "BUGS",
-      "line2": "31",
-      "highlightLine2": "true",
-      "row":5,
-      "column":3
-    }, {
-      "type": "Stack",
-      "line1": "ARPU",
-      "line2": "$5.67",
-      "highlightLine2": "true",
-      "row":6,
-      "column":1
-    }, {
-      "type": "Stack",
-      "line1": "D1",
-      "line2": "55%",
-      "highlightLine2": "true",
-      "row":6,
-      "column":2
+      "column":2,
+      "background": {"red":0,"green":0,"blue":0,"alpha":0.3}
     }, {
       "type": "Simple",
-      "line1": "$",
-      "highlightLine2": "true",
-      "row":6,
-      "column":0
-    }, {
-      "type": "Stack",
-      "line1": "Daily $",
-      "line2": "$567",
-      "highlightLine2": "true",
-      "row":6,
+      "line1": "R4C3",
+      "row":4,
       "column":3
     }, {
       "type": "Delta",
@@ -139,15 +93,40 @@
       "column":0,
       "background": {"red":255,"green":0,"blue":0,"alpha":0.15}
     }, {
-      "type": "Delta",
-      "line1": "USD:ISK",
-      "line2": "1:126",
-      "delta":"-1%",
-      "deltaPositive":"false",
+      "type": "Simple",
+      "line1": "R5C2Simple",
+      "row":5,
+      "column":2
+    }, {
+      "type": "Simple",
+      "line1": "R5C3",
+      "row":5,
+      "column":3
+    }, {
+      "type": "Simple",
+      "line1": "$",
       "highlightLine2": "true",
-      "row":3,
-      "column":2,
-      "background": {"red":255,"green":0,"blue":0,"alpha":0.15}
+      "row":6,
+      "column":0
+    }, {
+      "type": "Simple",
+      "line1": "R6C1",
+      "row":6,
+      "column":1
+    }, {
+      "type": "Stack",
+      "line1": "R6",
+      "line2": "C2",
+      "highlightLine2": "true",
+      "row":6,
+      "column":2
+    }, {
+      "type": "Stack",
+      "line1": "Stack",
+      "line2": "R6C3",
+      "highlightLine2": "true",
+      "row":6,
+      "column":3
     }
   ]
 }
