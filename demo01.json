@@ -1,8 +1,8 @@
 {
-  "theme": "red",
+  "theme": {"red":255,"green":0,"blue":0},
   "boxes": [
     {
-      "zoomed": true,
+      "zoomed": "true",
       "type": "Simple",
       "line1": "🍔",
       "row":0,
